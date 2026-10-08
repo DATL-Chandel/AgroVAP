@@ -278,7 +278,7 @@ const GDDDocumentation = () => {
             `}</style>
             <header style={styles.header}>
 
-                    <h1 style={styles.title}>Crop Growth Tracking</h1>
+                    <h1 style={styles.title}>Crop Growth Tracking Documentation</h1>
                     <p style={{
                         fontSize: isMobile ? '14px' : '16px',
                         lineHeight: '1.6',
