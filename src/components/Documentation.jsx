@@ -83,6 +83,13 @@ const Documentation = () => {
     return (
         <div style={styles.container}>
             <div style={styles.contentWrapper}>
+                <div style={{ textAlign: 'center', marginBottom: isMobile ? '20px' : '30px' }}>
+                    <img
+                        src={`${import.meta.env.BASE_URL}final.png`}
+                        alt="Agroclimate Logo"
+                        style={{ width: isMobile ? '260px' : '450px', maxWidth: '100%', height: 'auto', display: 'block', margin: '0 auto' }}
+                    />
+                </div>
                 <div style={styles.tabContainer}>
                     <div 
                         style={{

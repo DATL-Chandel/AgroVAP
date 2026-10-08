@@ -150,7 +150,7 @@ const MainDocumentation = () => {
         <>
             <header style={styles.header}>
 
-                    <h1 style={styles.title}>Agroclimate Viewer & Planner App Documentation</h1>
+                    <h1 style={styles.title}>Main Tool Documentation</h1>
                     <p style={{
                         fontSize: isMobile ? '14px' : '16px',
                         lineHeight: '1.6',
@@ -159,7 +159,7 @@ const MainDocumentation = () => {
                         margin: '0 auto',
                         marginBottom: isMobile ? '15px' : '20px',
                     }}>
-                        Welcome to the comprehensive guide for the Agroclimate Viewer & Planner App. 
+                        Welcome to the comprehensive guide for the Main Tool. 
                         This documentation will help you understand and utilize all the features effectively.
                     </p>
                 </header>
@@ -174,30 +174,12 @@ const MainDocumentation = () => {
                         marginTop: '20px'
                     }}>
                         <div style={{
-                            flex: '0 0 300px',
-                            maxWidth: '100%',
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center'
-                        }}>
-                            <img 
-                                src="/AgroVAP/logo.png"
-                                alt="Agroclimate Logo"
-                                style={{
-                                    maxWidth: '100%',
-                                    height: 'auto',
-                                    borderRadius: '8px',
-                                    boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
-                                }}
-                            />
-                        </div>
-                        <div style={{
                             flex: '1 1 500px',
                             fontSize: isMobile ? '14px' : '16px',
                             lineHeight: '1.6',
                             color: '#333'
                         }}>
-                            The Agroclimate Viewer & Planner App is an interactive web-based tool designed to help users monitor, forecast, and analyze agroclimatic conditions for their croplands. By leveraging Google Earth Engine (GEE), the application provides insights through satellite imagery, weather forecasts, soil data, and climate patterns. Users can draw field boundaries, select specific parameters, and generate visualizations to aid in informed agricultural decision-making.
+                            The Main Tool is an interactive web-based tool designed to help users monitor, forecast, and analyze agroclimatic conditions for their croplands. By leveraging Google Earth Engine (GEE), the application provides insights through satellite imagery, weather forecasts, soil data, and climate patterns. Users can draw field boundaries, select specific parameters, and generate visualizations to aid in informed agricultural decision-making.
                         </div>
                     </div>
                 </div>
@@ -893,7 +875,7 @@ const MainDocumentation = () => {
                                     opacity: 0.9,
                                     lineHeight: '1.6'
                                 }}>
-                                    Get a comprehensive walkthrough of all features in the Agroclimate Viewer & Planner App. Learn how to analyze crop data, monitor weather patterns, and make data-driven decisions.
+                                    Get a comprehensive walkthrough of all features in the Main Tool. Learn how to analyze crop data, monitor weather patterns, and make data-driven decisions.
                                 </p>
                                 <div style={{
                                     flex: 1,
@@ -1019,7 +1001,7 @@ const MainDocumentation = () => {
                                     opacity: 0.9,
                                     lineHeight: '1.6'
                                 }}>
-                                    Explore how to use the Agroclimate Viewer & Planner App on your mobile device. Learn to navigate and utilize all features efficiently on smaller screens.
+                                    Explore how to use the Main Tool on your mobile device. Learn to navigate and utilize all features efficiently on smaller screens.
                                 </p>
                                 <div style={{
                                     flex: 1,

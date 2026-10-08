@@ -61,7 +61,7 @@ const FeedbackForm = () => {
             padding: isMobile ? '15px' : '40px',
         },
         logo: {
-            width: isMobile ? '120px' : '150px',
+            width: isMobile ? '200px' : '280px',
             height: 'auto',
             marginBottom: '20px',
             display: 'block',
@@ -462,7 +462,7 @@ const FeedbackForm = () => {
             <div style={styles.contentWrapper}>
                 <div style={styles.header}>
                     <img 
-                        src="logo.png" 
+                        src={`${import.meta.env.BASE_URL}final.png`}
                         alt="Logo" 
                         style={styles.logo}
                         onError={(e) => {

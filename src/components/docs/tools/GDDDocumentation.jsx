@@ -302,24 +302,6 @@ const GDDDocumentation = () => {
                         marginTop: '20px'
                     }}>
                         <div style={{
-                            flex: '0 0 300px',
-                            maxWidth: '100%',
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center'
-                        }}>
-                            <img 
-                                src="/AgroVAP/logo.png"
-                                alt="Agroclimate Logo"
-                                style={{
-                                    maxWidth: '100%',
-                                    height: 'auto',
-                                    borderRadius: '8px',
-                                    boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
-                                }}
-                            />
-                        </div>
-                        <div style={{
                             flex: '1 1 500px',
                             fontSize: isMobile ? '14px' : '16px',
                             lineHeight: '1.6',

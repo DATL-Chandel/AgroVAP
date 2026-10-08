@@ -164,9 +164,6 @@ const TillagePlantingDocumentation = () => {
             <div style={styles.section}>
                 <h2 style={styles.sectionTitle}>1. Overview</h2>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '30px', flexWrap: 'wrap', marginTop: '20px' }}>
-                    <div style={{ flex: '0 0 300px', maxWidth: '100%', display: 'flex', justifyContent: 'center' }}>
-                        <img src="/AgroVAP/logo.png" alt="Agroclimate Logo" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }} />
-                    </div>
                     <div style={{ flex: '1 1 500px', fontSize: isMobile ? '14px' : '16px', lineHeight: '1.6', color: '#333' }}>
                         The Tillage &amp; Planting Scheduler is an agricultural decision-support application built on the Google Earth Engine (GEE) platform.
                         It provides farmers, agronomists, and researchers with a science-based 16-day suitability forecast for three field operations:
