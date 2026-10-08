@@ -150,7 +150,7 @@ const MainDocumentation = () => {
         <>
             <header style={styles.header}>
 
-                    <h1 style={styles.title}>Main Tool Documentation</h1>
+                    <h1 style={styles.title}>Agroclimate Viewer & Planner App (AgroVAP) Documentation</h1>
                     <p style={{
                         fontSize: isMobile ? '14px' : '16px',
                         lineHeight: '1.6',
