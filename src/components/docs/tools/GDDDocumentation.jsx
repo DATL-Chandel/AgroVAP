@@ -309,7 +309,7 @@ const GDDDocumentation = () => {
                             alignItems: 'center'
                         }}>
                             <img 
-                                src="/Agroclimate/logo.png"
+                                src="/AgroVAP/logo.png"
                                 alt="Agroclimate Logo"
                                 style={{
                                     maxWidth: '100%',
